@@ -1,4 +1,4 @@
-.lesson-card {
+.card {
     display: inline-block;
     width: 22.5%;
     margin-right: 24px;
@@ -8,15 +8,11 @@
     cursor: pointer;
 }
   
-.lesson-item {
+.item {
     border-radius: 4px;
     padding: 48px 0 64px;
 }
   
-.lesson-item img {
-    width: 126px;
-}
-  
-.lesson-item p {
+.item p {
     color: #2b546a;
 }

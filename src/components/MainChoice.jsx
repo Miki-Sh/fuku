@@ -38,12 +38,11 @@ const MainChoice = (props) => {
     //     }
 
     return(
-        <div className='lesson-card'>
-            <div className='lesson-item'
+        <div className='card'>
+            <div className='item'
             //   onClick={() => {this.handleClickLesson()}}
             >
             <h1>{props.name}</h1>
-            {/* <img src={this.props.image} /> */}
             </div>
             {/* {modal} */}
             <p>{props.introduction}</p>
